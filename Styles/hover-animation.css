@@ -1,0 +1,8 @@
+.nav:hover {
+    color: rgb(197, 88, 34);
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition:  300ms ease-out;
+}

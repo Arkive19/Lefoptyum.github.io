@@ -1,0 +1,6 @@
+in home.html add functionality to learn-more btn
+in home.html add description and methodology in space below landing view
+
+in projects.html add content to timeline animation
+
+in contact.html improve ui/ux

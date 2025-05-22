@@ -1,0 +1,40 @@
+
+  
+  /* Swiper Styles */
+  .swiper {
+      width: 100%;
+      height: fit-content;
+      border-radius: 20px;
+  }
+  
+  .swiper-slide {
+      height: 50vh;
+      width: 100%;
+
+  }
+  
+  .swiper-slide img {
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
+      border-radius: 20px;
+     
+  }
+  
+  /* Swiper Navigation Buttons */
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+      color: rgb(255, 255, 255);
+  }
+  
+  /* Swiper Pagination */
+  .swiper .swiper-pagination-bullet-active {
+      background: white;
+  }
+  
+  .carousel-img{
+        height: 100%;
+        width:  100%;
+        object-fit: contain;
+        border-radius: 20px;
+  }

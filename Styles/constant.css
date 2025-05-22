@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/cubano');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url("https://db.onlinewebfonts.com/c/0d898f1ff98ff49afbf55fd34db7253a?family=Proxima+Soft");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(21, 21, 21);
+    font-family: 'Cubano', sans-serif;
+    /*overflow: hidden; /* Hide both scrollbars */
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    
+}
+
+.main-cnt{
+    opacity: 0;
+}
