@@ -1,0 +1,84 @@
+.nav-bar {
+  width: 100vw;
+  left: 0;
+  margin: 0 auto;
+  position: relative;
+  justify-content: center;
+}
+
+.main-cnt{
+  display: flex;
+margin-top: 100px;
+  flex-direction: column;
+  width: 95vw;
+  height: 80vh;
+  /*border: 2px solid white*/;
+}
+
+
+.title{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 4vh;
+}
+.pfp{
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-right: 3vw ;
+  height: 40vh;
+  width: 25vw;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  }
+
+.yap{
+  display: flex;
+  flex-direction: column;
+    /*border: 2px solid white*/
+  width: 60vw;
+  height: 40vh;
+  color:  white;
+  font-size: 3vh;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.grad{
+ color: #ff7e5f;
+font-family: "Cubano", sans-serif;
+font-size: 5vh;
+transition: 1s ease-in-out;
+margin-bottom: 10px;
+}
+
+.grad:hover{
+  margin-bottom: 1px;
+    color: #feb47b;
+    transition: 1s ease-in-out;
+}
+
+.grad::after{
+    margin-top: 1px;
+    display: block;
+    content: '';
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    border-radius: 100px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    transition: 1s ease-in-out;
+}
+
+.grad:hover::after{
+  width: 20%;
+}
