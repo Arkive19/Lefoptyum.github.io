@@ -7,6 +7,7 @@ class TextScramble {
   }
 
   setText(newText) {
+    newText = newText.slice(0, 9); // Limit to 9 characters
     const oldText = this.el.innerText;
     const length = Math.max(oldText.length, newText.length);
     const promise = new Promise((resolve) => (this.resolve = resolve));
