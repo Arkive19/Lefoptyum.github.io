@@ -11,7 +11,7 @@ html, body {
     overflow-x: hidden;
     background-color: rgb(21, 21, 21);
     font-family: 'Cubano', sans-serif;
-    /*overflow: hidden; /* Hide both scrollbars */
+    overflow-x: hidden;
 }
 
 body{
@@ -27,3 +27,4 @@ body{
 .main-cnt{
     opacity: 0;
 }
+

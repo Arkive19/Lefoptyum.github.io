@@ -107,4 +107,26 @@ align-items: center;
    /* border: 2px solid white; */
 }
 
+@media (max-width:964px) {
+  .swiper-cnt {
+    width: 90% !important;
+  }
 
+  .timeline {
+    position: relative;
+    max-width: 100vw;
+    padding-left: 30px !important;
+  }
+}
+
+@media (max-width:590px) {
+  .swiper-cnt {
+    width: 90% !important;
+  }
+
+  .timeline {
+    position: relative;
+    max-width: 100vw;
+    padding-left: 30px !important;
+  }
+}

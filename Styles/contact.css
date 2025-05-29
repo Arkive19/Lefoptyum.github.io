@@ -139,3 +139,45 @@
     transform: scale(1.5)
     
 }
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 900px) {
+    * {
+        overflow: visible;
+    }
+
+    .main-cnt {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .sub-cnt-1,
+    .sub-cnt-2 {
+        width: 100%;
+        padding: 0 5vw;
+        justify-content: left;
+        align-items: unset;
+    }
+
+    .title {
+        font-size: 4vh;
+        margin-bottom: 5vh;
+    }
+
+    .info {
+        font-size: 2.5vh;
+    }
+
+    .focus {
+        font-size: 3.5vh;
+    }
+}

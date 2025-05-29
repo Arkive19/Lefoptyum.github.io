@@ -2,13 +2,13 @@
   
   /* Swiper Styles */
   .swiper {
-      width: 100%;
+    width: 100%;
       height: fit-content;
       border-radius: 20px;
   }
   
   .swiper-slide {
-      height: 50vh;
+    height: auto;
       width: 100%;
 
   }
