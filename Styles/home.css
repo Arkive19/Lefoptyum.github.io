@@ -57,12 +57,17 @@ width: 40%;
    margin-bottom: -10vh; 
 }
   
-.slider-image {
-    height: fit-content;
+
+
+.slider-image,
+.swiper-slide img {
     width: 100%;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
     border-radius: 20px;
+    display: block;
 }
+
 .home-title::after {
     content: '';
     position: absolute;
