@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
      <div class="nav-bar"> 
         <div class="logo-box" id="toggle">
             <a href="#" class="nav nav-logo">
-                <img class="logo" src="/Assets/Logo.png" alt="LEFOPTYUM">
+                <img class="logo" src="../Assets/Logo.png" alt="LEFOPTYUM">
             </a>
         </div>
         <div class="nav-links" id="nav-links">
