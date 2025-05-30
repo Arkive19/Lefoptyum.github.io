@@ -7,17 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
             </a>
         </div>
         <div class="nav-links" id="nav-links">
-            <a href="./index.html" class="nav nav-btn">Home</a>
-            <a href="./projects.html" class="nav nav-btn">Projects</a>
-            <a href="./contact.html" class="nav nav-btn">Contact</a>
-            <a href="./about-me.html" class="nav nav-btn">About Me</a>
+            <a href="../" class="nav nav-btn">Home</a>
+            <a href="../projects" class="nav nav-btn">Projects</a>
+            <a href="../contact" class="nav nav-btn">Contact</a>
+            <a href="../about-me" class="nav nav-btn">About Me</a>
         </div>
         <div id="menu" class="nav-popup-menu">
           <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./about-me.html">About Me</a></li>
+            <li><a href="../">Home</a></li>
+            <li><a href="../projects">Projects</a></li>
+            <li><a href="../contact">Contact</a></li>
+            <li><a href="../about-me">About Me</a></li>
           </ul>
         </div>
      </div>
